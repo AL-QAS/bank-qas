@@ -1,0 +1,112 @@
+.app__navbar{
+    background: #00040F;
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+.app__navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app__navbar-logo img{
+    width: 124px;
+    height: 32px
+}
+
+.app__navbar-links{
+    display:flex;
+    list-style: none;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.app__navbar-links li,.app__navbar-smallscreen_links li{
+    color:#fff;
+    font-size: 1rem;
+    line-height: 20.8px;
+    cursor:pointer
+}
+
+.app__navbar-links li:hover{
+    background: linear-gradient(
+        144.39deg,
+        #ffffff -278.56%,
+        #6d6d6d -78.47%,
+        #11101d 91.61%
+      );
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.app__navbar-smallscreen{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.app__navbar-smallscreen img{
+    cursor:pointer;
+    width: 28px;
+    height: 28px;
+}
+
+.app__navbar-smallscreen_links{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    transition: .5s ease;
+    gap:1rem
+}
+
+.app__navbar-smallscreen_overlay{
+    position: absolute;
+    right:0;
+    background: linear-gradient(
+        144.39deg,
+        #ffffff -278.56%,
+        #6d6d6d -78.47%,
+        #11101d 91.61%
+      );
+    ;
+    top: 40px;
+    border-radius: 8px;
+    transition: .5s ease;
+    min-width: 140px;
+   padding: 2rem;
+}
+
+.app__navbar-smallscreen{
+    display: none;
+}
+
+@media  screen and (max-width: 768px) {
+    .app__navbar-sm_hidden{
+        display: none
+    }
+    
+    .app__navbar-smallscreen{
+        display: flex;
+    }
+}
+
+@media  screen and (max-width: 768px){
+    .app__navbar{
+        padding:2rem 2rem
+    }
+}

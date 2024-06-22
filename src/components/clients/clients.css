@@ -1,0 +1,32 @@
+.app__clients{
+    background-color: #00040F;
+    
+}
+
+.app__clients-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.app__clients-image{
+    flex:1;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+
+.app__clients-image img{
+    width:192.25px;
+    height:60px;
+    object-fit: contain;
+}
+
+@media screen and(min-width:768px){
+    .app__clients-image{
+        width:192px
+    }
+}

@@ -1,0 +1,13 @@
+.section__padding {
+    padding: 4rem 6rem;
+    
+  }
+
+ 
+  
+
+  @media screen and (max-width:425px){
+    .section__padding{
+      padding: 4rem 2rem;
+    }
+  }

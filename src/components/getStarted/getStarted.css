@@ -1,0 +1,30 @@
+.app__hero-getStarted{
+    width: 140px;
+    height:140px;
+    border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding:2px;
+   flex:1
+}
+
+.app__hero-getStarted_content{
+    background-color: #00040F;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width:100%;
+    height: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.app__hero-getStarted_content img{
+    width:23px;
+    height:23px;
+}
+
+

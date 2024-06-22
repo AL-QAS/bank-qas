@@ -1,0 +1,47 @@
+.app__stats{
+    background: #00040F;
+}
+
+.app__stats-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.app__stats-content{
+   flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2rem
+}
+
+.app__stats-content h4{
+    font-size: 40.89px;
+    line-height:53.16px;
+    font-weight:600;
+    color:#ffffff;
+}
+
+.app__stats-content p{
+  
+    font-size:20.45px;
+    line-height:26.58px
+}
+
+@media screen and (max-width:768px){
+    .app__stats-content{
+        margin:1rem
+    }
+
+    .app__stats-content h4{
+        font-size: 30.89px;
+    }
+
+    .app__stats-content p{
+        font-size: 15.45px;
+    }
+}
