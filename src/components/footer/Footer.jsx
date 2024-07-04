@@ -25,7 +25,7 @@ const Footer = () => {
     </div>
    
     <div className="app__footer-social-links">
-   <p> Copyright Ⓒ 2022 HooBank. All Rights Reserved.</p>
+   <p> Copyright Ⓒ 2024 HooBank. All Rights Reserved.</p>
    <div className="app__footer-social-icons">
     {
       socialMedia.map(media=>(<a href={media.link} key={media.id}><img src={media.icon} alt='icon' /></a>))
